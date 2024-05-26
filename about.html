@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS and FONTS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="all" />
+  <link rel="stylesheet" href="css/slick.min.css" media="all" />
+  <link rel="stylesheet" href="css/style.css" media="all" />
+  <link rel="stylesheet" href="css/media.css" media="all" />
+  <link rel="stylesheet" href="fonts/stylesheet.css" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <title>About</title>
+</head>
+
+<body>
+  <header class="lc-main-header">
+    <div class="container">
+      <div class="lc-navbar">
+        <div class="lc-navbar-left sm-hide">
+          <div class="lc-socials">
+            <a href="#" class="lc-social-ic">
+              <img src="./img/ic_instagram.svg" alt="instagram" />
+            </a>
+            <a href="#" class="lc-social-ic">
+              <img src="./img/ic_telegram.svg" alt="telegram" />
+            </a>
+            <a href="#" class="lc-social-ic">
+              <img src="./img/ic_facebook.svg" alt="facebook" />
+            </a>
+          </div>
+        </div>
+        <div class="lc-navbar-center">
+          <a href="index.html" class="navbar-brand lc-logo">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="lc-navbar-right sm-hide">
+          <div class="dropdown">
+            <button class="btn lc-language-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="./img/ic_global.svg" class="me-1" alt="global" />
+              Language
+            </button>
+            <ul class="dropdown-menu lc-dropdown-menu">
+              
+              <li><a class="dropdown-item active" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Hindi</a></li>
+            </ul>
+          </div>
+          <!-- <a class="lc-social-ic" href="#">
+              <img src="./img/ic_search.svg" alt="search" />
+            </a> -->
+        </div>
+        <div class="lc-mob-nav">
+          <div class="dropdown lc-lang-dropdown">
+            <div class="dropdown">
+              <button type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                class="lc-language-dropdown me-2 dropdown-toggle btn btn-none">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.0001 18.3337C14.6025 18.3337 18.3334 14.6027 18.3334 10.0003C18.3334 5.39795 14.6025 1.66699 10.0001 1.66699C5.39771 1.66699 1.66675 5.39795 1.66675 10.0003C1.66675 14.6027 5.39771 18.3337 10.0001 18.3337Z"
+                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M6.66667 2.5H7.5C5.875 7.36667 5.875 12.6333 7.5 17.5H6.66667" stroke="white"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M12.5 2.5C14.125 7.36667 14.125 12.6333 12.5 17.5" stroke="white" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M2.5 13.3333V12.5C7.36667 14.125 12.6333 14.125 17.5 12.5V13.3333" stroke="white"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M2.5 7.5C7.36667 5.875 12.6333 5.875 17.5 7.5" stroke="white" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu lc-dropdown-menu">
+                
+                <li><a class="dropdown-item active" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Hindi</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- <a class="lc-search" href="#">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 22L20 20" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a> -->
+          <button class="btn lc-hamburger" data-bs-toggle="modal" data-bs-target="#menuModal">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="36" height="36" rx="18" fill="white" />
+              <path d="M10 15H26" stroke="black" stroke-width="1.5" stroke-linecap="round" />
+              <path d="M10 21H26" stroke="black" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="lc-cat-nav-wrapper">
+    <div class="container">
+      <ul class="nav lc-cat-nav">
+        <li class="nav-item lc-parent-cat">
+          <a href="about.html" class="nav-link"> About us </a>
+        </li>
+        <li class="nav-item lc-parent-cat">
+          <a href="team.html" class="nav-link"> Team </a>
+        </li>
+        <li class="nav-item lc-parent-cat">
+          <a href="index.html" class="nav-link"> Services </a>
+        </li>
+        <li class="nav-item lc-parent-cat">
+          <a href="news.html" class="nav-link"> News </a>
+        </li>
+        <li class="nav-item lc-parent-cat">
+          <a href="#" class="nav-link"> Testimonials </a>
+        </li>
+        <!-- <li class="nav-item lc-parent-cat">
+          <a href="vacancy.html" class="nav-link"> Careers </a>
+        </li> -->
+        <li class="nav-item lc-parent-cat">
+          <a href="contact.html" class="nav-link"> Contacts </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="lc-bg-section lc-about-bg">
+      <div class="container">
+        <h1 class="lc-bg-title">About Company</h1>
+      </div>
+    </section>
+    <section class="lc-page-section">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">About Company</li>
+          </ol>
+        </nav>
+        <div class="lc-carriers-info-row">
+          <div class="lc-carriers-card">
+            <div class="lc-carriers-info">
+              <div class="lc-carriers-card-text">
+                "IPAT SOLUTIONS is a intellectual property consulting firm that provides comprehensive services to the "
+              </div>
+            </div>
+          </div>
+          <div class="lc-carriers-card">
+            <div class="lc-carriers-card-cover">
+              <img src="./img/bg_about.avif" alt="about">
+            </div>
+          </div>
+        </div>
+        <div class="lc-carriers-info-row">
+          <div class="lc-carriers-card">
+            <div class="lc-carriers-card-cover">
+              <img src="./img/bg_about2.jpeg" alt="about">
+            </div>
+          </div>
+          <div class="lc-carriers-card">
+            <div class="lc-carriers-info">
+              <div class="lc-carriers-card-text">
+                "IPAT Solutions is a professional firm that provides comprehensive services to the clients."
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="lc-footer-container">
+        <div class="lc-footer-group">
+          <div class="lc-footer-title" data-aos="fade-up">Contact Us</div>
+          <div class="lc-footer-contact" data-aos="fade-up">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Full name" />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+            </div>
+            <div class="mb-3">
+              <input type="tel" class="form-control" id="phone-number" placeholder="Enter your phone number" />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="4"></textarea>
+            </div>
+            <button class="btn lc-btn-mini">
+              <span>Submit</span>
+            </button>
+          </div>
+        </div>
+        <div class="lc-footer-group text-md-center">
+          <div class="lc-footer-logo" data-aos="fade-up">
+            <a href="#">
+              <!-- <img src="./img//logo.svg" alt="logo" /> -->
+            </a>
+          </div>
+          <div class="lc-footer-info" data-aos="fade-up">
+            Overall, while low companies may not have the scale or resources
+            of larger corporations, they can still thrive by leveraging their
+            strengths, focusing on customer services.
+          </div>
+          <div class="lc-footer-phone" data-aos="fade-up">
+            <a href="tel:+998992140101">+998 99 214 01 01</a>
+          </div>
+          <div class="lc-footer-location" data-aos="fade-up">
+            <div class="lc-location-ic">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 13.4304C13.7231 13.4304 15.12 12.0336 15.12 10.3104C15.12 8.5873 13.7231 7.19043 12 7.19043C10.2769 7.19043 8.88 8.5873 8.88 10.3104C8.88 12.0336 10.2769 13.4304 12 13.4304Z"
+                  stroke="black" stroke-width="1.5" />
+                <path
+                  d="M3.62001 8.49C5.59001 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.39001 20.54C5.63001 17.88 2.47001 13.57 3.62001 8.49Z"
+                  stroke="black" stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="es-location-text">
+              Cannaught Place, New Delhi 1100019
+            </div>
+          </div>
+        </div>
+        <div class="lc-footer-group text-md-end">
+          <div class="lc-footer-title" data-aos="fade-up">Pages</div>
+          <ul class="nav lc-footer-list" data-aos="fade-up">
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Testimonials</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#" class="nav-link">Careers</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="lc-footer-bottom">
+      <div class="container">
+        <div class="lc-footer-container">
+          <div class="lc-footer-group">
+            <div class="lc-footer-copyright">
+              © 2024 IPAT SOLUTIONS. All rights reserved.
+            </div>
+          </div>
+          <div class="lc-footer-group">
+            <div class="lc-socials">
+              <a class="lc-social-ic" href="#" target="_blank">
+                <img src="./img/ic_instagram_black.svg" alt="instagram" />
+              </a>
+              <a class="lc-social-ic" href="#" target="_blank">
+                <img src="./img/ic_facebook_bl.svg" alt="facebook" />
+              </a>
+              <a class="lc-social-ic" href="#" target="_blank">
+                <img src="./img/ic_telegram_bl.svg" alt="telegram" />
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Modal -->
+  <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="menuModalLabel">Menu</h1>
+          <button type="button" class="btn p-0" data-bs-dismiss="modal" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="pr-menu-modal-item">
+            <a href="about.html">
+              <span>About Us</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004"
+                  stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <div class="pr-menu-modal-item">
+            <a href="team.html">
+              <span>Team</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004"
+                  stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <div class="pr-menu-modal-item">
+            <a href="index.html">
+              <span>Services</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004"
+                  stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <div class="pr-menu-modal-item">
+            <a href="news.html">
+              <span>News</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004"
+                  stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <div class="pr-menu-modal-item">
+            <a href="index.html">
+              <span>Testimonials</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004"
+                  stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <!-- <div class="pr-menu-modal-item">
+            <a href="vacancy.html">
+              <span>Careers</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004"
+                  stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div> -->
+          <div class="pr-menu-modal-item">
+            <a href="contact.html">
+              <span>Contacts</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.47498 9.96004L7.73498 6.70004C8.11998 6.31504 8.11998 5.68504 7.73498 5.30004L4.47498 2.04004"
+                  stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Tabs -->
+  <div class="mobile-nav d-lg-none">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18.37 6.25122L13.09 2.55706C11.6508 1.54872 9.44166 1.60372 8.05749 2.67622L3.46499 6.26039C2.54832 6.97539 1.82416 8.44206 1.82416 9.59706V15.9221C1.82416 18.2596 3.72166 20.1662 6.05916 20.1662H15.9408C18.2783 20.1662 20.1758 18.2687 20.1758 15.9312V9.71622C20.1758 8.47872 19.3783 6.95706 18.37 6.25122ZM11.6875 16.4996C11.6875 16.8754 11.3758 17.1871 11 17.1871C10.6242 17.1871 10.3125 16.8754 10.3125 16.4996V13.7496C10.3125 13.3737 10.6242 13.0621 11 13.0621C11.3758 13.0621 11.6875 13.3737 11.6875 13.7496V16.4996Z"
+              fill="#000000" />
+          </svg>
+          <span class="menu-title">Home</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+          </svg>
+          <span class="menu-title">About us</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="team.html">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM609.3 512H471.4c5.4-9.4 8.6-20.3 8.6-32v-8c0-60.7-27.1-115.2-69.8-151.8c2.4-.1 4.7-.2 7.1-.2h61.4C567.8 320 640 392.2 640 481.3c0 17-13.8 30.7-30.7 30.7zM432 256c-31 0-59-12.6-79.3-32.9C372.4 196.5 384 163.6 384 128c0-26.8-6.6-52.1-18.3-74.3C384.3 40.1 407.2 32 432 32c61.9 0 112 50.1 112 112s-50.1 112-112 112z" />
+          </svg>
+          <span class="menu-title">Team</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+          </svg>
+          <span class="menu-title">Contact</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.inputmask.bundle.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/app.js?v=1.0.4"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
